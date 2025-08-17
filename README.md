@@ -13,6 +13,8 @@ end
 ## Use Cases
 You can write different classifications in naive bayes and decision trees to different files by specifying the name of the file, and its exact contents.
 
+I also needed a way to program in French without using a French language keyboard or download Linotte for the time being.
+
 ## Implementation
 
 ~~~ruby
