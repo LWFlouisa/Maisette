@@ -1,5 +1,7 @@
 ## Theory
-Implementing of that-but that-otherwise conditionals.
+Suppose you want to write new data, but you don't want to rewrite the old data, or append to that, and maintain the integrity of each related file.
+
+This subset of conditionals, inspired by Yoda Conditionals, allows one to write three files per functions. The thing to keep in mind is each function is designed to append, except when writing to a new file which happens once.
 
 ~~~
 that             "apple1.txt" has "the apple is red-green."; That            "banana1.txt" has "the banana is yellow-green.";
@@ -7,6 +9,11 @@ but that         "apple2.txt" has     "the apple is green."; That            "ba
 otherwise "apple_generic.txt" has      "that apple is red."; otherwise "banana_generc.txt" has        "the banana is brown.";
 end
 ~~~
+
+## Use Cases
+You can write different classifications in naive bayes and decision trees to different files by specifying the name of the file, and its exact contents.
+
+## Implementation
 
 ~~~ruby
 ##########################################################################################################
